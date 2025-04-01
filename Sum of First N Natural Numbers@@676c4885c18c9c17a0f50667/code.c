@@ -1,22 +1,22 @@
 
 #include <stdio.h>
 int sum1(int);
-int sum1(int n)
+int sum1(int N)
 {
-    if (n == 1)
+    if (N == 1)
     {
         return 1;
     }
     else
     {
-        return sum1(n - 1) + n;
+        return sum1(N - 1) + N;
     }
 }
 int main()
 {
-    int n ;
-    scanf("%d",&n);
+    int N ;
+    scanf("%d",&N);
     // int sum1(int n);
-    printf("the sum of %d is %d ", n, sum1(n));
+    printf("the sum of %d is %d ", n, sum1(N));
     return 0;
 }
