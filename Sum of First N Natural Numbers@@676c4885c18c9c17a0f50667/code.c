@@ -17,6 +17,6 @@ int main()
     int N ;
     scanf("%d",&N);
     // int sum1(int n);
-    printf("the sum of %d is %d ", n, sum1(N));
+    printf("the sum of %d is %d ", N, sum1(N));
     return 0;
 }
