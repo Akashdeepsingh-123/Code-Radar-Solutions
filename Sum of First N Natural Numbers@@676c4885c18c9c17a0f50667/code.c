@@ -1,22 +1,19 @@
-
 #include <stdio.h>
-int sum1(int);
-int sum1(int N)
-{
-    if (N == 1)
-    {
-        return 1;
+
+int main() {
+    int n, sum = 0;
+
+    // Taking user input
+    // printf("Enter a positive integer: ");
+    scanf("%d", &n);
+
+    // Summing the first n natural numbers
+    for (int i = 1; i <= n; i++) {
+        sum += i;
     }
-    else
-    {
-        return sum1(N - 1) + N;
-    }
-}
-int main()
-{
-    int N ;
-    scanf("%d",&N);
-    // int sum1(int n);
-    printf(" %d " ,sum1(N));
+
+    // Displaying the result
+    printf("%d\n", sum);
+
     return 0;
 }
