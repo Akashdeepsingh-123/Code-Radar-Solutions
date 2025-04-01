@@ -17,6 +17,6 @@ int main()
     int N ;
     scanf("%d",&N);
     // int sum1(int n);
-    printf(" %d " sum1(N));
+    printf(" %d " ,sum1(N));
     return 0;
 }
