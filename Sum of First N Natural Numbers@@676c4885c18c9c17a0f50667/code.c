@@ -1,5 +1,6 @@
 // Your code here...
 #include <stdio.h>
+int sumn(int);
 int sumn(int n){
     if(n==1){
         return 1;
