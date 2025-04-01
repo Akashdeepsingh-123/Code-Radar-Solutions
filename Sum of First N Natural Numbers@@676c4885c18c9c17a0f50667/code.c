@@ -1,19 +1,22 @@
-// Your code here...
+
 #include <stdio.h>
-int sumn(int);
-int sumn(int n){
-    if(n==1){
+int sum1(int);
+int sum1(int n)
+{
+    if (n == 1)
+    {
         return 1;
     }
-    else{
-        return sumn(n-1)+n;
+    else
+    {
+        return sum1(n - 1) + n;
     }
 }
-
-int main(){
-    int n;
+int main()
+{
+    int n ;
     scanf("%d",&n);
-    printf("%d",sumn(n));
-
+    // int sum1(int n);
+    printf("the sum of %d is %d ", n, sum1(n));
     return 0;
 }
